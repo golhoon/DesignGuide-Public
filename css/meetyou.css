@@ -53,6 +53,31 @@ padding-left:28px;
 font-weight:500
 }
 
+@media (min-width:992px){
+.bs-docs-sidebar .nav>
+.active>ul{display:block}
+.bs-docs-sidebar.affix,
+.bs-docs-sidebar.affix-bottom{
+width:213px
+}
+
+.bs-docs-sidebar.affix{
+position:fixed;
+top:20px
+}
+
+.bs-docs-sidebar.affix-bottom{position:absolute}
+.bs-docs-sidebar.affix
+.bs-docs-sidenav,.bs-docs-sidebar
+.affix-bottom
+.bs-docs-sidenav{margin-top:0;margin-bottom:0}}
+
+@media (min-width:1200px){.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom{width:263px}}
+
+.bs-docs-section{
+margin-bottom:60px
+}
+
 /* 导航栏 */
 
 .bs-docs-nav{
@@ -170,3 +195,71 @@ line-height:1
 margin-right:380px
 }
 }
+
+/*Footer的相关属性*/
+
+
+.bs-docs-footer{
+padding-top:40px;
+padding-bottom:40px;
+margin-top:100px;
+color:#767676;
+text-align:center;
+border-top:1px solid #e5e5e5
+}
+
+.bs-docs-footer-links{
+padding-left:0;
+margin-top:20px
+}
+
+
+.bs-docs-footer-links li{
+display:inline;
+padding:0 2px
+}
+
+.bs-docs-footer-links li:first-child{
+padding-left:0
+}
+@media (min-width:768px){
+.bs-docs-footer p{margin-bottom:0}}
+.bs-docs-social{margin-bottom:20px;text-align:center}
+.bs-docs-social-buttons{display:inline-block;padding-left:0;margin-bottom:0;list-style:none}
+.bs-docs-social-buttons li{display:inline-block;padding:5px 8px;line-height:1}
+.bs-docs-social-buttons .twitter-follow-button{width:225px!important}
+.bs-docs-social-buttons .twitter-share-button{width:98px!important}.github-btn{overflow:hidden;border:0}
+
+
+/*返回顶部*/
+
+
+.back-to-top,.bs-docs-theme-toggle{
+display:none;
+padding:4px 10px;
+margin-top:10px;
+margin-left:10px;
+font-size:12px;
+font-weight:500;
+color:#999
+}
+
+.back-to-top:hover,.bs-docs-theme-toggle:hover{
+  color:#ff5072;
+  text-decoration:none
+  }
+
+.bs-docs-theme-toggle{
+margin-top:0
+}
+
+@media (min-width:768px){
+.back-to-top,.bs-docs-theme-toggle{display:block}}
+
+/*Docs Section*/
+
+.bs-docs-section{
+margin-bottom:60px
+}
+
+.bs-docs-section:last-child{margin-bottom:0}h1[id]{padding-top:20px;margin-top:0}.bs-callout{padding:20px;margin:20px 0;border:1px solid #eee;border-left-width:5px;border-radius:3px}
